@@ -1,0 +1,36 @@
+
+GET http://localhost:3100/employee-salary-data
+
+###
+
+POST http://localhost:3100/ask-employee-bot
+Content-Type: application/json
+x-api-key: AIzaSyCFLbFgfPveAvUxn2keeyMqG0BnBLIK6OU
+
+{
+    "userQuestion": "List the names of all departments."
+}
+
+### 
+POST http://localhost:3200/ask-employee-bot
+Content-Type: application/json
+
+{
+  "userQuestion": "Show top 5 highest paid employees"
+}
+
+### 
+POST http://localhost:3200/ask-employee-bot
+Content-Type: application/json
+
+{
+  "userQuestion": "Total salary paid per month in entire organization"
+}
+
+###
+POST http://localhost:3200/ask-employee-bot
+Content-Type: application/json
+
+{
+  "userQuestion": "How many employees have master graduation"
+}
