@@ -3,9 +3,8 @@ GET http://localhost:3100/employee-salary-data
 
 ###
 
-POST http://localhost:3100/ask-employee-bot
+POST http://localhost:3200/ask-employee-bot
 Content-Type: application/json
-x-api-key: AIzaSyCFLbFgfPveAvUxn2keeyMqG0BnBLIK6OU
 
 {
     "userQuestion": "List the names of all departments."
